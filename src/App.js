@@ -4,6 +4,7 @@ import Books from "./pages/Books";
 import SavedBooks from "./pages/SavedBooks";
 import NoMatch from "./pages/NoMatch";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import './App.css';
 
 const App = () => {
   return (
