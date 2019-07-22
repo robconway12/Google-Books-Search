@@ -11,7 +11,7 @@ class SavedBooks extends Component {
     books: []
   };
 
-  // grab the books from /api/books
+  // grab the books from API
   componentDidMount() {
     API.getBooks()
       .then(res => this.setState(
@@ -52,7 +52,7 @@ class SavedBooks extends Component {
                     key={book._id}
                     src={book 
                       ? book.src 
-                      : "http://icons.iconarchive.com/icons/paomedia/small-n-flat/128/book-icon.png"}
+                      : "http://icons.iconarchive.com/icons/double-j-design/ravenna-3d/256/Book-icon.png"}
                     title={book.title}
                     authors={book.authors.join(", ")}
                     date={book.date}

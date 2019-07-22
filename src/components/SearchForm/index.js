@@ -10,11 +10,11 @@ const SearchForm = props => {
           name="search"
           type="text"
           className="form-control"
-          placeholder="Search for a Book, Author, or Topic"
+          placeholder="Book / Author / Topic"
           id="search"
         />
         <br />
-        <button onClick={props.handleFormSubmit} className="btn btn-primary shadow">
+        <button onClick={props.handleFormSubmit} className="btn btn-danger shadow">
           Search
         </button>
       </div>
