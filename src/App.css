@@ -2,3 +2,11 @@ h1 {
     color: whitesmoke;
     font-family: 'Spicy Rice', cursive;
 }
+
+h3, button {
+    font-family: 'Raleway', sans-serif;
+}
+
+p, input {
+    font-family: 'Oswald', sans-serif;
+}

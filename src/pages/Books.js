@@ -14,7 +14,7 @@ class Books extends Component {
     search: ""
   };
 
-  // searches the GoogleBooks API storing the data in books array
+  // searches for the books and puts data into an array
   searchBooks = query => {
     API.searchBooks(query)
       .then(res =>
@@ -37,7 +37,6 @@ class Books extends Component {
     });
   };
 
-  // once the search term is submitted, search the GoogleBooks API for the value of `this.state.search`
   handleFormSubmit = event => {
     event.preventDefault();
     this.searchBooks(this.state.search);
